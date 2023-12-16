@@ -1,6 +1,4 @@
-﻿using System;
-
-class FirstSession
+﻿class FirstSession
 {
 	static void Main(string[] args)
 	{
@@ -45,7 +43,10 @@ class FirstSession
 		FirstFunction();
 
         //Mire jók még a függvények és miért is jók a változók?
-        //4. feladat: paraméterek
+        //4. feladat: paraméterek és visszatérési érték
+
+
+		//4.b újra írni mindent amit eddig csináltunk fgv-ként, innentől mindent függvényként csinálunk.
 
 
 
@@ -57,9 +58,10 @@ class FirstSession
 
         //Összetett feladat
         Console.WriteLine("Írd be az első számot:");
-        int firstNumber = int.Parse(Console.ReadLine());
+        int firstNumber = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Írd be a második számot:");
-        int secondNumber = int.Parse(Console.ReadLine());
+        int secondNumber = Convert.ToInt32(Console.ReadLine());
+        
 
 		int result = Sum(firstNumber, secondNumber);
 		Console.WriteLine($"Az eredmény: {result}");
