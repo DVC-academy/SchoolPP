@@ -42,11 +42,17 @@
 		FirstFunction();
 		FirstFunction();
 
-        //Mire jók még a függvények és miért is jók a változók?
-        //4. feladat: paraméterek és visszatérési érték
+		//Mire jók még a függvények és miért is jók a változók?
+		//4. feladat: paraméterek és visszatérési érték
+		Console.WriteLine(Sum(10, 2));
 
 
 		//4.b újra írni mindent amit eddig csináltunk fgv-ként, innentől mindent függvényként csinálunk.
+
+		Console.WriteLine("###########################");
+        FirstExcercise();
+		SecondExcercise();
+        Console.WriteLine("###########################");
 
 
 
@@ -86,5 +92,33 @@
 	{
 		return firstNumber + secondNumber;
 	}
+
+	static void FirstExcercise()
+	{
+        Console.WriteLine("Első feladat:");
+        Console.WriteLine("Így tudunk üzenetet kiírni.");
+
+        string message = "Így pedig változón keresztül írhatunk ki valamit.";
+        Console.WriteLine(message);
+
+        //Konkatenáció
+        string firstString = "Így lehet összekötni";
+        string secondString = "két darab string-et.";
+
+        Console.WriteLine(firstString + " " + secondString);
+    }
+
+	static void SecondExcercise()
+	{
+        Console.WriteLine("Második feladat:");
+        Console.WriteLine(2 + 3);
+
+
+        int number = 2;
+        int number2 = 6;
+        Console.WriteLine(number + number2);
+    }
+
+
 }
 

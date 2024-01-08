@@ -2,6 +2,7 @@
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
 3. Feladat: Fgv-ek
 4. Feladat: Fgv-ek paraméterrel és visszatérési értékkel.
+    4/b: Újraírni mindent fgv-ként: (Őnálló feladat)
 5. Feladat: Bekérés stdin-ről
 6. Feladat: Összetett feladat: összeadás
 
