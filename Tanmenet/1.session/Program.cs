@@ -59,6 +59,9 @@
         //Még mindig nincsen értelme, mivel kézzel írjuk be a változókat előre.
         //Input bevezetése
         //5. feladat: adat bekérése a std inputról
+        Console.WriteLine("Adj meg egy számot, és én hozzáadok kettőt!");
+        int num = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Az eredmény: ", num + 2);
 
 
 

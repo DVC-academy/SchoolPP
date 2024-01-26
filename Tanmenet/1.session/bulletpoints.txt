@@ -1,4 +1,7 @@
-﻿1. Feladat: String használat, kiíratás simán és változóval; konkatenáció
+﻿Kérdés: Számológép funkciója?
+Válasz: Bemenet, Műveletek végzése számokon, Kimenet
+
+1. Feladat: String használat, kiíratás simán és változóval; konkatenáció
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
 3. Feladat: Fgv-ek
 4. Feladat: Fgv-ek paraméterrel és visszatérési értékkel.
