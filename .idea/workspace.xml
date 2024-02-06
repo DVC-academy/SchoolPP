@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bfac9b1-c53b-45a9-bd62-6c5509829bf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanmenet/1.session/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanmenet/1.session/bulletpoints.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tanmenet/1.session/bulletpoints.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanmenet/1.session/first_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tanmenet/1.session/first_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moduleCheckList.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707080229794</updated>
-      <workItem from="1707080231040" duration="3208000" />
+      <workItem from="1707080231040" duration="3514000" />
     </task>
     <servers />
   </component>
