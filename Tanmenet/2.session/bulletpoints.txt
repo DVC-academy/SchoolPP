@@ -1,12 +1,6 @@
 ﻿Cél: elégazás, ciklusok
 
-
-1. Feladat: If
-2. Feladat: else
-3. Feladat: elif 
-További n feladat ezekkel
-n+1. Feladat: while
-További k feladat ezekkel
-n+k+1. Feladat: for
+- feladatok leírása jelenleg kommentkéne van de át lehet írni replit tutorial formára
+- a függvények lehetnek félkészen beleírva majd élesben
 
 ----------------
