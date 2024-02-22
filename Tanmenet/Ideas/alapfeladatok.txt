@@ -1,0 +1,25 @@
+# E-mail 
+Kérj inputról két nevet egymás után: egy feladót és egy címzettet. 
+Írj egy egyszerű üdvözlő levelet melynek melbyen a megszólításnál és elköszönésnél felhasználod ezeket a neveket.
+pl: Kedves {címzett}, nagyon szép napunk van ma! Remélem te is a megfelelő pártra szavazol! Üdvözlettel: {feladó}
+
+# Szidalmazás generátor 
+Kérj inputról két szót egymás után: egy melléknevet és egy főnevet.
+Ír egy egyszerű szidalmazást ezek segítségével!
+pl: A {melléknév} édesanyád is ezt mondta amikor előkerült tegnap az ágyban egy {főnév} és akkor nem panaszkodott.
+
+# Téglalap területszámítása
+Kérj bementről két számot egymás után: a téglalap maagasságát és szélességét.
+Írd ki a téglalap kerületét és területét!
+(ugyanez más matematikai alakzatokkal lehet remixelve)
+
+# Pythonagorasz 
+Kérj bementről két számot egymás után: egy derékszögű háromszög két befogójának hosszát cm-ben.
+Írd ki a derékszögű háromszög átfogóját miliméterben!
+(Más tulajodnásgit is ki lehet íratni)
+
+# Időszámítás
+Kérj bementről egy egész számot (0-86 400)! 
+Írd ki hogy mi lenne a pontos idő, ha a bemenetül kapot számnyi másodperc telt volna el éjfél óta!
+pl: bemenet=3666 kimenet=01:01:06 
+
