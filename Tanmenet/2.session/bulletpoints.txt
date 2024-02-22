@@ -1,0 +1,6 @@
+﻿Cél: elégazás, ciklusok
+
+- feladatok leírása jelenleg kommentkéne van de át lehet írni replit tutorial formára
+- a függvények lehetnek félkészen beleírva majd élesben
+
+----------------
