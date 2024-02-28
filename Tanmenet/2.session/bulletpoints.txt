@@ -1,12 +1,9 @@
-﻿Cél: Függvnyek, stringek, számok, bemenet, kiíratás
+﻿Cél: Stringek, intek, kiíratás, bekérés
 
 
 1. Feladat: (Mi az a string?) String használat, kiíratás simán és változóval; konkatenáció
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
-3. Feladat: Fgv-ek (Lokális, globális, python nem támogatja)
-4. Feladat: Fgv-ek paraméterrel és visszatérési értékkel.
-    4/b: Újraírni mindent fgv-ként: (Őnálló feladat)
-5. Feladat: Bekérés stdin-ről
+
 
 ----------------
 
