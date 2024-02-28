@@ -1,6 +1,28 @@
-﻿Cél: elégazás, ciklusok
+﻿Cél: Függvnyek, stringek, számok, bemenet, kiíratás
 
-- feladatok leírása jelenleg kommentkéne van de át lehet írni replit tutorial formára
-- a függvények lehetnek félkészen beleírva majd élesben
+
+1. Feladat: (Mi az a string?) String használat, kiíratás simán és változóval; konkatenáció
+2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
+3. Feladat: Fgv-ek (Lokális, globális, python nem támogatja)
+4. Feladat: Fgv-ek paraméterrel és visszatérési értékkel.
+    4/b: Újraírni mindent fgv-ként: (Őnálló feladat)
+5. Feladat: Bekérés stdin-ről
 
 ----------------
+
+Házi feladat: 10 darab változatos feladat:
+1. String kiíratás
+2. String konkatenáció
+3. Intekkel (összeadás, kivonás, szorzás, osztás)
+4. Fgv hívása, paraméterrel és nélküle, visszatérési értékkel és nélküle
+5. Stdin-ről bekérés és kiíratás
+6. String e betűk számolása
+7. String kisbetűsítése-nagybetűsítése
+8. String hossza
+
+Konkrét feladatok:
+1. Írj egy fgv-t, ami kiírja a nevedet!
+2. Írj egy fgv-t, ami kiírja a nevedet, és visszaadja a neved hosszát!
+3. Írj egy fgv-t, ami két számot összead, és visszaadja az összeget!
+4. Írj egy fgv-t, ami két számot összead, és kiírja az összeget!
+
