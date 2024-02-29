@@ -1,25 +1,40 @@
 ﻿Cél: Stringek, intek, kiíratás, bekérés
+ Óra végi nagy feladatok:
+  - Szidalmazás/csajozó-pasizó generátor
+  - Terület-kerület számítás
 
 
 1. Feladat: (Mi az a string?) String használat, kiíratás simán és változóval; konkatenáció
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
 
 
-----------------
+----------------------------------------------------------------
 
 Házi feladat: 10 darab változatos feladat:
 1. String kiíratás
 2. String konkatenáció
 3. Intekkel (összeadás, kivonás, szorzás, osztás)
-4. Fgv hívása, paraméterrel és nélküle, visszatérési értékkel és nélküle
-5. Stdin-ről bekérés és kiíratás
-6. String e betűk számolása
-7. String kisbetűsítése-nagybetűsítése
-8. String hossza
+4. Stdin-ről bekérés és kiíratás
+5. String e betűk számolása
+6. String kisbetűsítése-nagybetűsítése
+7. String hossza
 
 Konkrét feladatok:
-1. Írj egy fgv-t, ami kiírja a nevedet!
-2. Írj egy fgv-t, ami kiírja a nevedet, és visszaadja a neved hosszát!
-3. Írj egy fgv-t, ami két számot összead, és visszaadja az összeget!
-4. Írj egy fgv-t, ami két számot összead, és kiírja az összeget!
+1. String konkatenáció gyakorlatok
+   a. Üdvözlés kiegészítése névvel
+   b. Napló bejegyzés dátummal
+   c. Személyre szóló hirdetés generálása
 
+2. Feladat: Egész számok gyakorlása
+   a. Két szám összeadása
+   b. Két szám kivonása
+   c. Két szám szorzása
+   d. Egy szám osztása egy másikkal
+   e. Egy egész szám hatványozása
+
+3. Feladat: Standard bemenetről adat bekérése és kiíratása
+   a. Egész szám bekérése és kiíratása
+   b. Két egész szám bekérése, összeadása, majd az eredmény kiíratása
+   c. Szöveges adat bekérése és kiíratása
+   d. Két szám bekérése, a nagyobbat kiíratása
+   e. Karakter bekérése, majd annak kiíratása
