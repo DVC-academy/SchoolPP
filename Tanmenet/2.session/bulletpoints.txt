@@ -1,11 +1,33 @@
 ﻿Cél: Stringek, intek, kiíratás, bekérés
  Óra végi nagy feladatok:
-  - Szidalmazás/csajozó-pasizó generátor
+  - Szidalmazás/dícséret generátor
+      Szidalmazás szöveg:
+      Te {melléknév} bitang, bárcsak megenne téged a {főnév}. Ha mégegyszer meglátlak, esküszöm, hogy {ige}!
+
+    Dícséret:
+    Te vagy a leggyönyörűbb {főnév} a földön, többet érsz nekem 400 {főnév}nál/nél. Mindent megtennék azért, hogy egyszer {ige} veled. Örökké szeret: {név} ❤️❤️
+    
   - Terület-kerület számítás
 
 
 1. Feladat: (Mi az a string?) String használat, kiíratás simán és változóval; konkatenáció
+Önálló feladatok:
+1.1 Üdvözlés kiegészítése névvel
+  "Szevasz {name} ez egy jól működő program."
+1.2 Több string konkatenálása
+  Rakj össze 3 tetszőleges mondatot változók segítségével!
+    start = "Szeretnék vásárolni"
+    amount1 = "egy"
+    amount2 = "kettő"
+    amount3 = "ezer"
+    name1 = "malacot."
+    name2 = "tehenet."
+    name3 = "tigrist."
+
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
+2.1 Próbáld ki az összes műveletet két számon (3 és 4), írasd ki és vizsgáld meg az eredményt!
+
+3. Feladat: Vegyes konkatenáció, interpoláció
 
 
 ----------------------------------------------------------------
@@ -15,26 +37,5 @@ Házi feladat: 10 darab változatos feladat:
 2. String konkatenáció
 3. Intekkel (összeadás, kivonás, szorzás, osztás)
 4. Stdin-ről bekérés és kiíratás
-5. String e betűk számolása
 6. String kisbetűsítése-nagybetűsítése
 7. String hossza
-
-Konkrét feladatok:
-1. String konkatenáció gyakorlatok
-   a. Üdvözlés kiegészítése névvel
-   b. Napló bejegyzés dátummal
-   c. Személyre szóló hirdetés generálása
-
-2. Feladat: Egész számok gyakorlása
-   a. Két szám összeadása
-   b. Két szám kivonása
-   c. Két szám szorzása
-   d. Egy szám osztása egy másikkal
-   e. Egy egész szám hatványozása
-
-3. Feladat: Standard bemenetről adat bekérése és kiíratása
-   a. Egész szám bekérése és kiíratása
-   b. Két egész szám bekérése, összeadása, majd az eredmény kiíratása
-   c. Szöveges adat bekérése és kiíratása
-   d. Két szám bekérése, a nagyobbat kiíratása
-   e. Karakter bekérése, majd annak kiíratása
