@@ -26,6 +26,7 @@
 
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
 2.1 Próbáld ki az összes műveletet két számon (3 és 4), írasd ki és vizsgáld meg az eredményt!
+2.2 változók felülírása
 
 3. Feladat: Vegyes konkatenáció, interpoláció
 
