@@ -1,28 +1,42 @@
-﻿Cél: Függvnyek, stringek, számok, bemenet, kiíratás
+﻿Cél: Stringek, intek, kiíratás, bekérés
+ Óra végi nagy feladatok:
+  - Szidalmazás/dícséret generátor
+      Szidalmazás szöveg:
+      Te {melléknév} bitang, bárcsak megenne téged a {főnév}. Ha mégegyszer meglátlak, esküszöm, hogy {ige}!
+
+    Dícséret:
+    Te vagy a leggyönyörűbb {főnév} a földön, többet érsz nekem 400 {főnév}nál/nél. Mindent megtennék azért, hogy egyszer {ige} veled. Örökké szeret: {név} ❤️❤️
+    
+  - Terület-kerület számítás
 
 
 1. Feladat: (Mi az a string?) String használat, kiíratás simán és változóval; konkatenáció
-2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
-3. Feladat: Fgv-ek (Lokális, globális, python nem támogatja)
-4. Feladat: Fgv-ek paraméterrel és visszatérési értékkel.
-    4/b: Újraírni mindent fgv-ként: (Őnálló feladat)
-5. Feladat: Bekérés stdin-ről
+Önálló feladatok:
+1.1 Üdvözlés kiegészítése névvel
+  "Szevasz {name} ez egy jól működő program."
+1.2 Több string konkatenálása
+  Rakj össze 3 tetszőleges mondatot változók segítségével!
+    start = "Szeretnék vásárolni"
+    amount1 = "egy"
+    amount2 = "kettő"
+    amount3 = "ezer"
+    name1 = "malacot."
+    name2 = "tehenet."
+    name3 = "tigrist."
 
-----------------
+2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
+2.1 Próbáld ki az összes műveletet két számon (3 és 4), írasd ki és vizsgáld meg az eredményt!
+2.2 változók felülírása
+
+3. Feladat: Vegyes konkatenáció, interpoláció
+
+
+----------------------------------------------------------------
 
 Házi feladat: 10 darab változatos feladat:
 1. String kiíratás
 2. String konkatenáció
 3. Intekkel (összeadás, kivonás, szorzás, osztás)
-4. Fgv hívása, paraméterrel és nélküle, visszatérési értékkel és nélküle
-5. Stdin-ről bekérés és kiíratás
-6. String e betűk számolása
-7. String kisbetűsítése-nagybetűsítése
-8. String hossza
-
-Konkrét feladatok:
-1. Írj egy fgv-t, ami kiírja a nevedet!
-2. Írj egy fgv-t, ami kiírja a nevedet, és visszaadja a neved hosszát!
-3. Írj egy fgv-t, ami két számot összead, és visszaadja az összeget!
-4. Írj egy fgv-t, ami két számot összead, és kiírja az összeget!
-
+4. Stdin-ről bekérés és kiíratás
+6. String kisbetűsítése-nagybetűsítése
+7. String hossza
