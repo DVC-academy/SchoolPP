@@ -1,4 +1,0 @@
-﻿Cél: Alapvető terminál műveletek megismertetése, könyvtárkezelés
-(könyvtárstruktúra, cd, ls, relatív-abszolút path, mappa és fájl létrehotás, futtatás)
-
-
