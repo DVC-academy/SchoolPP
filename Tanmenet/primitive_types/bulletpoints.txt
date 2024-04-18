@@ -27,8 +27,11 @@
 2. Feladat: Intek összeadása, kivonása, szorzása (osztás?); int-string interpolált konkatenáció
 2.1 Próbáld ki az összes műveletet két számon (3 és 4), írasd ki és vizsgáld meg az eredményt!
 2.2 változók felülírása
+2.3 Miért jók a változók?
 
 3. Feladat: Vegyes konkatenáció, interpoláció
+
+4.1-es feladat: Írj egy programot, ami először bekéri a nevedet, majd azt hogy hány éves vagy, és köszöntsön fel a szülinapodon.
 
 
 ----------------------------------------------------------------

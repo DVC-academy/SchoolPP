@@ -25,8 +25,16 @@ Ennek a módját az alábbiakban láthatod:
 
 ```python
 name = input()
-print(name)
+print("Szia", name)
 ```
 
 Ez a rövid program bekér a konzolról egy szöveget, majd elmenti azt a name nevű változóban.
-Az input() egy úgy nevezett függvény, ami azért felel, hogy a konzolra beírt szöveget behozza a programba.
+Az `input()` egy úgy nevezett függvény, ami azért felel, hogy a konzolra beírt szöveget behozza a programba.
+
+### Bekérés a konzolról üzenettel
+Az `input()` függvényt megkérhetjük arra is, hogy írjon ki egy üzenetet a konzolra, hogy a felhasználó tudja mi a feladata. Pl:
+
+```python
+name = input("Írd be a neved:")
+print("Szia", name)
+```
