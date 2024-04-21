@@ -5,7 +5,7 @@
       Te {melléknév} bitang, bárcsak megenne téged a {főnév}. Ha mégegyszer meglátlak, esküszöm, hogy {ige}!
 
     Dícséret:
-    Te vagy a leggyönyörűbb {főnév} a földön, többet érsz nekem 400 {főnév}nál/nél. Mindent megtennék azért, hogy egyszer {ige} veled. Örökké szeret: {név} ❤️❤️
+    Te vagy a leggyönyörűbb {főnév} a földön, többet érsz nekem 400 {főnév}-nál/nél. Mindent megtennék azért, hogy egyszer {ige} veled. Örökké szeret: {név} ❤️❤️
     
   - Terület-kerület számítás
 

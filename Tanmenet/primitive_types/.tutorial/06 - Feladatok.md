@@ -1,0 +1,1 @@
+TODO: idas/alapfeladatokat lehet itt használni és a primitive_types/bulletpointba lévőket
