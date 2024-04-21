@@ -1,0 +1,44 @@
+Cél: Az óra végére megtanulják a diákok,
+hogy hogyan kell paraméter és visszatérési érték nélküli függvényeket definiálni, és hogyan kell használni őket.
+
+Óra végi nagy feladat:
+
+
+0. Feladat: import, másik fájlból, píthon package
+1. Feladat: Mennyi idő telt el? Írja ki az elején, hogy mennyi a kezdő idő, a végső idő, és hogy mennyi idő telt el
+2. Feladat: Írjuk át ezt függvénnyé (Plusz otthoni feladat, hogyan tudjuk kiírni csak a másodpercet)
+    Miért jó ez? Véletlenül magyarul írtuk a kódot, és most könnyen át tudjuk írni angolra, hiszen elég egy helyen
+3. Feladat: SCOPE
+    global-local variables: melyiket fogja kiírni?
+    Pythonban nem szokás ugyanazt a nevet használni!
+
+    3.1-es feladat:
+        Hozz létre egy globális int változót, és adj neki egy kezdeti értéket
+        Készíts egy függvényt, ami mindig növeli a globális változó értékét eggyel
+
+INNENTŐL KEZDVE MINDEN FELADATOT FÜGGVÉNYBE KELL ÍRNI
+
+
+
+
+
+- Függvények
+- Függvényhívás
+- Függvények definiálása
+- Függvények paraméterek nélkül
+- Függvények visszatérési érték nélkül
+- Függvények paraméterekkel és visszatérési értékkel
+- A return utasítás
+- A return utasítás használata függvényekben
+- A return utasítás használata a függvényekben
+- A return utasítás használata a függvényekben
+- A return utasítás használata a függvényekben
+- A return utasítás használata a függvényekben
+
+Generálj feladatokat paraméter és visszatérés nélküli függvényekkel:
+
+1. Írjunk egy függvényt, ami kiírja a páros számokat 1 és 20 között
+2. Írjunk egy függvényt, ami kiírja a páratlan számokat 1 és 20 között
+3. Írjunk egy függvényt, ami kiírja a 3-mal osztható számokat 1 és 20 között
+4. Írjunk egy függvényt, ami kiírja, hogy hány darab 3-al osztható szám van 1 és 20 között
+5.

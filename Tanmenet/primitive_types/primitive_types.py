@@ -1,5 +1,5 @@
 #######################################################
-INDENT = "#######################################"
+from Tanmenet.constants import INDENT
 
 print(INDENT)
 print("1. feladat")
