@@ -2,7 +2,7 @@
 
 ## Mi a függvény?
 
-- A függvények olyan kódrészletek, amelyeket újra és újra felhasználhatunk. 
+- A függvények olyan kódrészletek, amelyeket újra és újra és újra felhasználhatunk. 
 - A függvények segítségével a kódunkat átláthatóbbá és könnyebben karbantarthatóvá tehetjük. 
 - A függvények segítségével a kódunkat kisebb részekre bonthatjuk, amelyeket külön-külön tesztelhetünk és fejleszthetünk.
 - A függvényeknek megadhatunk bemeneti paramétereket, amelyek segítségével a függvény működését befolyásolhatjuk.
