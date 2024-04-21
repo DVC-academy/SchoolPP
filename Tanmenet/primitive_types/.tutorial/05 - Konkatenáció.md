@@ -7,3 +7,4 @@ first_part = ""
 print()
 ```
 
+TODO: befejezni
