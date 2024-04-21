@@ -16,3 +16,5 @@ Az egész számokat használhatjuk aritmetikai műveletekhez (pl. összeadás, k
 **Fontos!**
 
 Ellentétben a string-ekkel, az int-eknél **NEM** használunk "" jeleket.
+
+TODO: megmutatni változókkal hogy figyleni kell a nem összekeverésre! Pl egy szintax vagy gyakori hibák fülön

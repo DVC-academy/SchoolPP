@@ -6,3 +6,5 @@ Minden programozási nyelvben megkülönböztetünk úgy nevezett adat típusoka
 
 ## Primitív adattípusok
 A primitív adattípusok közé tartoznak az alapvető adattípusok, amelyek közvetlenül támogatottak a nyelv szintjén, és nem nekünk kell őket létrehoznunk.
+
+[comment]: <> (TODO: Betűtípus megváltoztatása hoyg a hosszú ő is jól nézzen ki, hejesírás, kimelés) 

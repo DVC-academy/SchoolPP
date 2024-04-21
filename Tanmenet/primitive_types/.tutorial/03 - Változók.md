@@ -19,6 +19,8 @@ A változó értéke. Amikor a **name** nevű változóra hivatkozunk, akkor val
 Így hangzik tehát a teljes parancs:
 A **name** nevű változó értéke legyen **Alex**
 
+TODO: kiemelés
+
 ## A változók szintaxisa
 > Emlékeztető: A szintaxis a programozási nyelvben használt szabályok rendszere, amely meghatározza, hogy hogyan kell helyesen megírni a kódot.
 
@@ -46,7 +48,7 @@ my_favorite_number = 15
 
 Tehát a **my_variable** és a **my_Variable** változónevek NEM azonosak.
 
-4. Kerüljük azokat a változóneveket, amiket a Python alapból is használ (egyre több ilyennel találkozunk majd).
+4. Kerüljük azokat a változóneveket, amiket a Python alapból is használ (egyre több ilyennel találkozunk majd). TODO: példa
 
 5. A Python változók nevei csak betűvel, vagy alulvonással kezdődjenek.
 
