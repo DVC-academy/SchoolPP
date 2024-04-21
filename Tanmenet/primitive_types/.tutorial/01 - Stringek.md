@@ -1,6 +1,6 @@
 # String
 
-A string egy szöveglánc, amely karakterek sorozatát tartalmazza. A stringek Pythonban aposztrófok ('), idézőjelek (") vagy három idézőjel (''' vagy """) között vannak. Például:
+A string egy szöveglánc, amely karakterek sorozatát tartalmazza. A stringek Pythonban aposztrófok ('), idézőjelek (") vagy három idézőjel (''' vagy """) között vannak. (TODO: Mire jó a 3 idézőjel?) Például:
 
 ```python
 "Hello, World!"

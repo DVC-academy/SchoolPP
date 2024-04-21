@@ -6,3 +6,4 @@ Ha szeretnénk több változót egymás után fűzni (ez lehet bármilyen adatt�
 first_part = ""
 print()
 ```
+
