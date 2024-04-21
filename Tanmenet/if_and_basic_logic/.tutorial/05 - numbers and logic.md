@@ -1,5 +1,6 @@
 # Relációs jelek
 
+TODO: leírni a különböző relációs jeleket 
 
 ### Korhatár
 

@@ -12,6 +12,8 @@ else:
 print("Rossz válasz... A kutya jobb, a cica a ball!")
 ```
 
+TODO: véálasz helyett csak segítség legyen itt és amúgy mindenhol máshol is!
+
 <details> <summary> Válasz </summary>
 
 ```python

@@ -1,5 +1,7 @@
 # If utasítás
 
+TODO:kiemelés módosítás, átfogalamazások és változók magyartalanítása
+
 Ezek az utasítások egy kicsit olyanok, mintha kérdést tennénk fel. 
 
 Azt mondjuk a számítógépnek: **if**  valami igaz, **then** hajtsa végre ezt a specifikus kód blokkot.
@@ -8,7 +10,7 @@ A dupla egyenlőség (`==`) arra kéri a számítógépet, hogy hasonlítsa öss
 
 &nbsp;
 
-Ahhoz, hogy az "if" utasítás bemenetéhez kapcsolódó "print" utasítást hozzunk létre, a következő sorba kell lépnünk, és **egyszer** kell behúznunk (tabulátor) a kódot (szerencsére a Replit megteszi, de légy óvatos!). Így az egész része lesz annak a kódnak, amit futtatunk.
+Ahhoz, hogy az "if" utasítás bemenetéhez kapcsolódó "print" utasítást hozzunk létre, a következő sorba kell lépnünk, és **egyszer** kell behúznunk (tabulátor) a kódot (szerencsére a Replit megteszi, de légy óvatos!). 
 
  Másold át ezt a kódot, és nézd meg, mi történik!
   

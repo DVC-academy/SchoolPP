@@ -1,5 +1,7 @@
 # And és or utasítás
 
+TODO: kifejteni az and-et és az or-t
+
 Az **or** kulcsszóval le tudjuk egyszerűsíteni az előzőt:
 
 ```python
@@ -24,6 +26,8 @@ password = input("Jelszó > ")
 &nbsp;
 
 Az alábbi kódban a felhasználónévnek és a jelszónak **egyaránt** helyesnek kell lennie ahhoz, hogy Márk be tudjon jelentkezni.
+
+TODO: case-ek egységesítése
 
 ```python
 print("BIZTONSÁGOS BEJELENTKEZÉS")
