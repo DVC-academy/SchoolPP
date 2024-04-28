@@ -1,9 +1,48 @@
 # And és or utasítás
 
-TODO: kifejteni az and-et és az or-t
+Az `and` és `or` utasítás logikai műveletek, melyek arra szolgálnak hogy egyszerre több logikai állítást tudjunk megvizsgálni.
 
-Az **or** kulcsszóval le tudjuk egyszerűsíteni az előzőt:
+* Az **A** és **B** két logikai állítást jelöl, amelyek lehetnek igazak vagy hamisak.
+* Az `or` művelet eredménye igaz, ha **A _vagy_ B**, vagy mindkettő igaz, egyébként hamis.
+* Az `and` művelet eredménye csak akkor igaz, ha **A _és_ B** egyszerre igaz, egyébként hamis.
 
+Íme egy táblázat ami segít összefoglalni őket:
+
+| A | B | &rarr; | **A `or` B**  | **A `and` B** |
+|:---:|:---:|:---:|:---:|:---:|
+| _Igaz_ | _Igaz_ | &rarr; | **Igaz** | **Igaz** |
+| _Igaz_ | _Hamis_ | &rarr; | **Igaz** | **Hamis** |
+| _Hamis_ | _Igaz_ | &rarr; | **Igaz** | **Hamis** |
+| _Hamis_ | _Hamis_ | &rarr; | **Hamis** | **Hamis** |
+
+Példa az `or` műveletre:
+```python
+if A or B:
+  print("A vagy B állítás igaz!")
+else:
+  print("A és B állítás hamis!")
+```
+
+Példa az `and` műveletre:
+```python
+if A and B:
+  print("A és B állítás igaz!")
+else:
+  print("A vagy B állítás hamis!")
+```
+
+&nbsp;
+
+---
+
+### Gyakorlás
+
+Módosítsuk az előző feladatot az `or` művelet használatával!
+A program üdvözöljön ha a megadott név az "Dávid" vagy "Vince" vagy a te neved, egyébként pedig mondd meg a felhasználónak hogy itt nem tud belépni!
+Ne használj `elif` utasítást a programban!
+
+<details><summary> Lehetséges megoldás </summary>
+  
 ```python
 myName = input("Mi a neved?: ")
 if myName == "Dávid" or myName == "Vince":
@@ -11,51 +50,32 @@ if myName == "Dávid" or myName == "Vince":
 else:
   print("Tűnj el!")
 ```
+</details>
 
- ### Adjunk hozzá még egy kis bemenetet.
+### Felhasználónév és jelszó
 
-Módosítsuk a kódot, hogy mind a névnek **és** a jelszónak egyeznie kell ahhoz, hogy Dávid és Vince be tudjanak jelentkezni.
+Kérjünk be további bemenetként egy jelszót is!
+1. Először csak a felhasználó nevet kérje be a progam és azt ellenőrizze ahogy korábban is! 
+2. Ha a felhasználónév el lett fogadva kérjünk be jelszót is és ellenőrizzük hogy az stimmel-e a felhazsnálónévez megadottal!
+3. Dávid jelszava legyen "password", Vince jelszava pedig "safePassword123"!
 
-
+<details><summary> Lehetséges megoldás </summary>
+  
 ```python
 print("BIZTONSÁGOS BEJELENTKEZÉS")
-username = input("Felhasználónév > ")
-password = input("Jelszó > ")
-```
+userName = input("Felhasználónév > ")
 
-&nbsp;
-
-Az alábbi kódban a felhasználónévnek és a jelszónak **egyaránt** helyesnek kell lennie ahhoz, hogy Márk be tudjon jelentkezni.
-
-TODO: case-ek egységesítése
-
-```python
-print("BIZTONSÁGOS BEJELENTKEZÉS")
-username = input("Felhasználónév > ")
-password = input("Jelszó > ")
-
-if username == "Dávid" and password == "password":
-  print("Szia Dávid, már vártalak!")
-else:
-  print("Tűnj el!")
-```
-
-&nbsp;
-
-Vince jelszava a "safePassword123". Add hozzá ezt a kódhoz
-
-<details><summary> Válasz </summary>
-
-```python
-print("BIZTONSÁGOS BEJELENTKEZÉS")
-username = input("Felhasználónév > ")
-password = input("Jelszó > ")
-
-if username == "Dávid" and password == "password":
-  print("Szia Dávid, már vártalak!")
-elif username == "Vince" and password == "safePassword123":
-  print("Szia Vince, már vártalak!")
+if userName == "Dávid" or userName == "Vince":
+  print(f"Szia {userName}, már vártalak!")
+  password = input("Jelszó > ")
+  if (userName == "Dávid" and password == "password") or (userName == "Vince" and password == "safePassword123"):
+    print("Helyes a jelszó, tényleg te vagy az!")
+  else:
+    print("Helytelen a jelszó! Úgy tűnik átvertél :/")
 else:
   print("Tűnj el!")
 ```
 </details>
+
+
+

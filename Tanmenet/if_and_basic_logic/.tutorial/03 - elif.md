@@ -1,6 +1,6 @@
 # Elif utasítás
 
-Az `elif` parancs (ami az 'elseif' rövidítése) lehetővé teszi, hogy 2, 3, 4 vagy akár 99999999994 kérdést is feltegyünk ugyanazzal a bemenettel! Ez a parancs egy meghatározott helyen kell tartózkodjon. Annyi `elif` utasításod lehet, amennyit csak akarsz, de **kötelezően** az `if` és `else` közé kell helyezniük, és ugyanazzal a behúzással kell rendelkezniük.
+Az `elif` parancs (ami az "else if" rövidítése) lehetővé teszi, hogy 2, 3, 4 vagy akár 99999999994 kérdést is feltegyünk ugyanazzal a bemenettel! Ez a parancs egy meghatározott helyen kell tartózkodjon. Annyi `elif` utasításod lehet, amennyit csak akarsz, de **kötelezően** az `if` és `else` közé kell helyezniük, és ugyanazzal a behúzással kell rendelkezniük.
 
 Az `elif` parancsban található `print` utasításoknak a többi `print` utasítás behúzásával kell egyezniük.
 
@@ -21,7 +21,7 @@ else:
 ### Feladat
 Próbáld meg hozzáadni a saját neved is, hogy téged is üdvözöljön!
 
-<details><summary> Megoldás </summary>
+<details><summary> Lehetséges megoldás </summary>
   
 ```python
 myName = input("Mi a neved?: ")

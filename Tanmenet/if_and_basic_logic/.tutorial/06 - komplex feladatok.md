@@ -4,7 +4,7 @@
 
 - Írj egy programot ami 'if'-ek segítségével és egymás utáni eldöntendő kérdéssel kitalálja hogy melyik számra gondolt a felhasználó 1 és 5 között! Lehetőleg minél kevesebb kérdéssel!
 - A válaszok lehetnek i/I ami igent, vagy n/N ami a nemet jelenti!
-- 
+  
 <details><summary> Lehetséges megoldás </summary>
   
 ```python
