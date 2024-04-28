@@ -1,5 +1,26 @@
 # Relációs jelek
 
+A Pythonban a következő relációs jeleket lehet használni:
+
+* **Egyenlőség (`==`):** Két érték egyenlőségének ellenőrzésére szolgál. Például: `5 == 5` igaz, `3 == 2` hamis.
+* **Különbség (`!=`):** Két érték különbözőségének ellenőrzésére szolgál. Például: `5 != 5` hamis, `3 != 2` igaz.
+* **Kisebb (`<`):** Annak ellenőrzésére szolgál, hogy az egyik érték kisebb-e, mint a másik. Például: `3 < 5` igaz, `5 < 3` hamis.
+* **Nagyobb (`>`):** Annak ellenőrzésére szolgál, hogy az egyik érték nagyobb-e, mint a másik. Például: `5 > 3` igaz, `3 > 5` hamis.
+* **Kisebb vagy egyenlő (`<=`):** Annak ellenőrzésére szolgál, hogy az egyik érték kisebb-e vagy egyenlő a másikkal. Például: `5 <= 5` igaz, `3 <= 5` igaz, `5 <= 3` hamis.
+* **Nagyobb vagy egyenlő (`>=`):** Annak ellenőrzésére szolgál, hogy az egyik érték nagyobb-e vagy egyenlő a másikkal. Például: `5 >= 5` igaz, `5 >= 3` igaz, `3 >= 5` hamis.
+
+A relációs jelek számok, szövegek és booleán értékek összehasonlítására használhatók. Például megadhatunk egy feltételt a segítségükkel egy `if` utasításban.
+
+Példa a szintaxishoz:
+
+```python
+if A > B:
+    print("A nagyobb mint B!")
+else:
+    print("A nem nagyobb mint B!")
+```
+
+
 
 ### Korhatár
 
@@ -7,6 +28,8 @@
 - Használj `if` utasítást annak eldöntésére, hogy jogosult-e szavazni.
 - Nyomtasson ki informatív üzeneteket a kora alapján.
 
+<details><summary> Lehetséges megoldás </summary>
+  
 ```python
 print("\n# Korhatár")
 szavazati_korhatar = 18
@@ -18,7 +41,7 @@ else:
   szavazasig_hatra = szavazati_korhatar - kor
   print(f"Még nem jogosult szavazni. {szavazasig_hatra} év múlva szavazhatsz.")
 ```
-
+</details>
 
 ### Hőmérséklet-ellenőrző:
 
@@ -26,7 +49,7 @@ else:
 - Használj `if` utasításokat a hőmérséklet "hideg", "meleg" kategóriába sorolásához a megfelelő küszöbértékek alapján.
 - Írass ki megfelelő üzeneteket a hőmérsékleti kategória alapján.
 
-<details><summary> Válasz </summary>
+<details><summary> Lehetséges megoldás </summary>
   
 ```python
 print("\n# Hőmérséklet-ellenőrző")
@@ -41,7 +64,7 @@ print(f"Az aktuális hőmérséklet {homerseklet}°C, ami egyesek szerint {kateg
 ```
 </details>
 
--Adj hozzá további hőmérsékleteket is!
+- Adj hozzá további hőmérsékleteket is!
 
 <details><summary> Lehetséges megoldás </summary>
 
