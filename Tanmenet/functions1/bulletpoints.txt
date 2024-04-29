@@ -4,7 +4,7 @@ hogy hogyan kell paraméter és visszatérési érték nélküli függvényeket 
 Óra végi nagy feladat:
 
 
-0. Feladat: import, másik fájlból, píthon package
+0-1. Feladat: import, másik fájlból, píthon package
 1. Feladat: Mennyi idő telt el? Írja ki az elején, hogy mennyi a kezdő idő, a végső idő, és hogy mennyi idő telt el
 2. Feladat: Írjuk át ezt függvénnyé (Plusz otthoni feladat, hogyan tudjuk kiírni csak a másodpercet)
     Miért jó ez? Véletlenül magyarul írtuk a kódot, és most könnyen át tudjuk írni angolra, hiszen elég egy helyen

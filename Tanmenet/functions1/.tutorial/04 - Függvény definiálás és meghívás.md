@@ -1,6 +1,5 @@
 # Függvény definició és meghívás
 
-TODO: Függvény deklaráció helyett végig használjunk függvény definiciót 
 TODO: lehet több paraméter is 
 
 ```python

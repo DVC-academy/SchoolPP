@@ -5,7 +5,7 @@ import time
 #######################################################
 print(INDENT)
 print("1. feladat")
-# Mennyi idő telt el?
+# Mennyi idő telt el? Hogyan használjuk az időt? import bevezetése
 
 start_time = datetime.datetime.now()
 print(f"Starting time is: {start_time}")
