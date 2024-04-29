@@ -48,8 +48,4 @@ def print_global_number():
     global number
     print(number)
 
-print(number)
-print_number()
-print_global_number()
-
 

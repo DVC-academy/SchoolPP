@@ -3,42 +3,35 @@
 Ha szeretnénk több változót egymás után fűzni (ez lehet bármilyen adattípus pl. string, int, saját típusok...), azt az alábbi módon tehetjük meg:
 
 ```python
-first_part = "Sziasztok"
-second_part = "Vince vagyok"
+first_part = "A szöveg első részéhez"
+second_part = " a szöveg második részét fűzzük hozzá."
 print(first_part, second_part)
 ```
 
-Ezzel csak annyi a gond, hogy automatikusan rak egy space-t a változóink értékei közé.
+A print() függvény az átadott paramétereket egymás után kiírja a konzolra. Ha vesszővel elválasztva több paramétert adunk át, akkor azokat szóközzel elválasztva írja ki.
 
-Tehát ha például van két változóm, amiből szeretnék egy számot összerakni helyiérték szerint:
+### Mi a gond ezzel?
+
+Ezt szeretném kiírni:
+Szöveg első része: `Én vagyok a leg`
+Szöveg második része: `jobb programozó a világon!`
+
+Mi lesz ezzel a gomd, ha az előző példa szerint csináljuk?
+
+
+<details> <summary> <b>Válasz</b></summary>
+Sajnos szóközzel fogja őket összetenni: <br>
+<b>Én vagyok a leg jobb programozó a világon</b>
+
+Ez sajnos barátok között sem túl jó, nemhogy egy programban. <br>
+A helyes megoldással már találkoztunk a kiíratásnál:
 
 ```python
-# 1-es helyiérték
-num1 = 2
-# 10-es helyiérték
-num10 = 4
-print("A szám:", num10, num1)
+first_part = "Én vagyok a leg"
+second_part = "jobb programozó a világon!"
+print(f"{first_part}{second_part}")
 ```
+Ezzel a megoldással nem lesznek felesleges szóközök a két szöveg között.
 
-Az eredmény `A szám: 4 2` lesz, ami nekünk nem megfelelő.
-Hogyan tudjuk elérni, hogy ne legyen space?
 
-## Másik módszer a konkatenációra
-
-Az alábbiakban láthatunk egy példát egy másik módszerre:
-
-```python
-print(f"{variable}")
-```
-
-Ebben az esetben a változókat nem egymás után tesszük vesszővel elválasztva, hanem kapcsos zárójelbe.
-
-Így az előző példa az alábbi:
-```python
-print(f"A szám: {num10}{num1}")
-```
-
-<details><summary> Várt eredmény </summary>
-
-`A szám: 42`
 </details>
