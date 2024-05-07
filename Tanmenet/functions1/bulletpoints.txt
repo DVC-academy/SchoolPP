@@ -18,27 +18,22 @@ hogy hogyan kell paraméter és visszatérési érték nélküli függvényeket 
 
 INNENTŐL KEZDVE MINDEN FELADATOT FÜGGVÉNYBE KELL ÍRNI
 
+Óra végi nagy feladat:
+Adott egy tömb egy iskola tanulóival és adataival (1000 fő), egyszerű feladatok implementálása + bemutatni a csv parsert
+Felhívni rá a figyelmet, hogy 10 diák esetén nagyon könnyű. Először így kérdezni. AZtán a mélyvíz
 
 
+1. Írj egy függvényt, ami kiszámolja és kiírja az átlag életkort.
+2. Írj egy függvényt, ami megállapítja, hogy a lányok vannak többen, vagy a fiúk? Az eredményt írd ki a konzolra.
+3. Írj egy függvényt, ami bekér egy nevet, és írd ki szép formában a névhez tartozó adatokat. Kezeld azt az esetet is, ha nem találsz ilyen nevet.
+4. Írj egy függvényt, ami kiírja azoknak a nevét, akinek van e betű a nevében. (Vigyázz, a nagy E betű is számít)
+5. Írj egy függvényt, ami bekér egy email cím végződést, és számold meg hány gyereknek van ilyen. (apache.org, wikipedia.org, shinystat.com)
 
 
-- Függvények
-- Függvényhívás
-- Függvények definiálása
-- Függvények paraméterek nélkül
-- Függvények visszatérési érték nélkül
-- Függvények paraméterekkel és visszatérési értékkel
-- A return utasítás
-- A return utasítás használata függvényekben
-- A return utasítás használata a függvényekben
-- A return utasítás használata a függvényekben
-- A return utasítás használata a függvényekben
-- A return utasítás használata a függvényekben
-
-Generálj feladatokat paraméter és visszatérés nélküli függvényekkel:
-
+Házi feladatok
 1. Írjunk egy függvényt, ami kiírja a páros számokat 1 és 20 között
-2. Írjunk egy függvényt, ami kiírja a páratlan számokat 1 és 20 között
+2. Írjunk egy függvényt, ami kiírja a páratlan számokat 0 és 10 között
 3. Írjunk egy függvényt, ami kiírja a 3-mal osztható számokat 1 és 20 között
 4. Írjunk egy függvényt, ami kiírja, hogy hány darab 3-al osztható szám van 1 és 20 között
-5.
+5. Óraihoz hasonló nagy feladat az autókkal
+
