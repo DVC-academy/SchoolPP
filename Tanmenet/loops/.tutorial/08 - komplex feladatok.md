@@ -24,20 +24,23 @@ Például:
 2. Kérj egy számot a felhasználótól 1 és 10 között ami téglalap magasságát fogja megadni!
 3. Írj ki egy téglalapot '*' karakterekből, ami megadott számú sorból és oszlopból fog állni!
 
-## Csillag-piramis
+## Pont-piramis
 
 1. Kérj egy számot 1 és 10 között a felhasználótól!
 2. Rajzolj ki egy piramist csillagokból aminek az alapja olyan hosszú mint a bekért szám és minden felette lévő sor 2 csillaggal rövidebb!
 
 Például: 
+```
 5:
-  *
- ***
-*****
+  .  
+ ... 
+.....
+
 
 4:
- **
-****
+ ..
+....
+```
 
 ## Hitel kalkuláció
 
