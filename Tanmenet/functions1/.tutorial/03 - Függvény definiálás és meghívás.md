@@ -1,6 +1,5 @@
 # Függvény definició és meghívás
 
-TODO: lehet több paraméter is 
 
 ```python
 def print_my_name():

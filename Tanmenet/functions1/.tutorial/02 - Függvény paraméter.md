@@ -1,5 +1,7 @@
 # Függvények paraméterekkel
 
+#TODO: NE ANGOLUL!!
+
 ```python
 def print_name(name):
     print(f"My name is {name}")
