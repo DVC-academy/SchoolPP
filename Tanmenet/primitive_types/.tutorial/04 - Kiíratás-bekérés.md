@@ -10,8 +10,8 @@ name = "Alex"
 print(name)
 ```
 
-Ebben a példában azt láthatjuk, ahogy az első sorban a **name** nevű változónak átadjuk az **Alex** értéket, a második sorban pedig kiíratjuk a **name** nevű változó értékét, így a konzolon kiírva azt fogjuk látni hogy:
-Alex
+Ebben a példában azt láthatjuk, ahogy az első sorban a `name` nevű változónak átadjuk az `Alex` értéket, a második sorban pedig kiíratjuk a `name` nevű változó értékét, így a konzolon kiírva azt fogjuk látni hogy:
+**Alex**
 
 Ugyanez int-ek esetében így néz ki:
 ```python
@@ -25,8 +25,29 @@ Ennek a módját az alábbiakban láthatod:
 
 ```python
 name = input()
-print(name)
+print("Szia", name)
 ```
 
 Ez a rövid program bekér a konzolról egy szöveget, majd elmenti azt a name nevű változóban.
-Az input() egy úgy nevezett függvény, ami azért felel, hogy a konzolra beírt szöveget behozza a programba.
+Az `input()` egy úgy nevezett függvény, ami azért felel, hogy a konzolra beírt szöveget behozza a programba.
+
+### Bekérés a konzolról üzenettel
+Az `input()` függvényt megkérhetjük arra is, hogy írjon ki egy üzenetet a konzolra, hogy a felhasználó tudja mi a feladata. Pl:
+
+```python
+name = input("Írd be a neved:")
+print("Szia", name)
+```
+Az `input()` egy úgy nevezett függvény, ami azért felel, hogy a konzolra beírt szöveget behozza a programba. </br>
+
+### Az input() függvény működése
+Az `input()` függvény megakasztja a program futását, amíg nem írtunk be valamit a konzolra, majd a beírt szöveget visszaadja a programnak. </br>
+Ezután a bekért szöveget kiírhatjuk a konzolra, vagy elmenthetjük egy változóba.
+
+### Példa
+```python
+name = input("Kérem adja meg a nevét:")
+print(name)
+```
+
+

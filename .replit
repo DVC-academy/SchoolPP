@@ -1,4 +1,4 @@
-entrypoint = "Tanmenet/2.session/second_session_strings_and_ints.py"
+entrypoint = "Tanmenet/primitive_types/primitive_types.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]

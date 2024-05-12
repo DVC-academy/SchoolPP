@@ -1,5 +1,5 @@
 #######################################################
-INDENT = "#######################################"
+from Tanmenet.constants import INDENT
 
 print(INDENT)
 print("1. feladat")
@@ -44,6 +44,29 @@ print(original)
 original = 15
 print(original)
 
+# 2.3-as feladat: Akkor miért is jók a változók?
+
+name1 = "Vince"
+name2 = "Dávid"
+name3 = "Valaki"
+name4 = "Ember"
+
+# Hard coded
+print("Szia", name1)
+print("Szia", name2)
+print("Szia", name3)
+print("Szia", name4)
+
+# Valaki kitalálta, hogy ez nem jó köszönés, legyen inkább szevasz. Most mim lesz?
+# Na erre jó a változó
+
+# Csak egyszer kell átírni
+greeting = "Szevasz"
+
+print(greeting, name1)
+print(greeting, name2)
+print(greeting, name3)
+print(greeting, name4)
 
 #######################################################
 
@@ -63,6 +86,16 @@ print(f"Beírok ide valamennyi {string_to_be_inserted} és egy számot is: {numb
 
 print(INDENT)
 # 4. Feladat: Bekérés stdin-ről
+
+name = input("Írd be a neved:")
+print("Szia", name)
+
+# 4.1-es feladat: Szülinap
+
+name = input("Mi a neved?")
+age = input("Hány éves vagy?")
+print(f"Boldog {age}-ik szülinapot {name}!")
+
 
 #######################################################
 
