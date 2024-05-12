@@ -25,6 +25,8 @@ Tartomány megadásakor a visszatérési érték egy új lista lesz a megadott e
 
 A harmadik, negyedik és ötödik elem kiíratása:
 
+#TODO: nyíltság és zártság beírása
+
 ```python
 my_list = ["traktor", True, 42, "traktor", "ötödik elem", "hetedik előtti elem"]  
 print(my_list[2:5]) 
@@ -44,7 +46,7 @@ print(my_list[:4])
 Ha kihagyjuk a záróértéket, a tartomány a megadott index utáni összes elemet tartalmazza a lista végéig:
 
 ```python
-my_list = ["traktor", True, 42, "traktor", "ötödik elem", "hetedik előtti elem"] 
+my_list = ["traktor", True, 42, "traktor", "ötödik elem, ami négyes indexű", "hetedik előtti elem"] 
 print(my_list[2:]) 
 ```
 

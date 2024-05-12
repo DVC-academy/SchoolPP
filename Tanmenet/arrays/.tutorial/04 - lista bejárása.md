@@ -9,6 +9,8 @@ for student in students:
     print(student)
 ```
 
+#TODO: itt további példa range-el, illetve a gyakori hibák a szintaxnál
+
 Lehet persze indexeket is használni ha példul csak a lista egy részén akarunk végig menni:
 
 ```python

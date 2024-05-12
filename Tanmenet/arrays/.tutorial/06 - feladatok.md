@@ -12,7 +12,6 @@ students = ["Peti", "Kata", "Legolasz", "Béla", "Vince", "Dávid"]
 
 A `students` lista alapján számold össze hány tanuló van.
 
-
 &nbsp;
 ## Tagság
 
@@ -45,5 +44,5 @@ Készíts programot mely meg tudja állapítani egy szóról vagy egy string-ké
 
 > Megjegyzés: A palindrom vagy palindróma a szójátékoknak, azon belül is az anagrammáknak az egyik fajtája. A szűkebb, eredeti értelemben olyan szó vagy szókapcsolat, amely visszafelé olvasva is ugyanaz. Például: "sas", "rotor", "radar", "kajak". Számokkal: "420024", "666" stb. 
 
-
+#TODO: inner loopok csekkolása és elmagyarázása explicit
 

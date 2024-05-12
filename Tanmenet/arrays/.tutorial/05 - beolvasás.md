@@ -1,4 +1,4 @@
-# Belovasás listakénet
+# Beolvasás listaként
 
 A későbbi feladatokban segíthet ha tudjátok hogyan kell a bemenetet listává alakítani. 
 

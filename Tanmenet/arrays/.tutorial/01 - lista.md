@@ -31,6 +31,8 @@ A listaelemek indexeltek, az első elem indexe `[0]`, a második elem indexe `[1
 
 A listaelemek különböző típusúak is lehetnek.
 
+#TODO: típusok említése
+
 ```python
 my_list = ["traktor", True, 42, "traktor"]  
 print(my_list[0]) # 1. elem
@@ -38,3 +40,5 @@ print(my_list[1]) # 2. elem
 print(my_list[2]) # 3. elem
 print(my_list[2]) # 4. elem
 ```
+
+#TODO: gyakori hibák a szintaxnál
