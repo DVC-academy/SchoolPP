@@ -23,14 +23,15 @@ Index tartományt úgy határozhatunk meg, hogy megadjuk a kezdő és a záró i
 
 Tartomány megadásakor a visszatérési érték egy új lista lesz a megadott elemekkel.
 
-A harmadik, negyedik és ötödik elem kiíratása:
 
-#TODO: nyíltság és zártság beírása
+A harmadik, negyedik és ötödik elem kiíratása:
 
 ```python
 my_list = ["traktor", True, 42, "traktor", "ötödik elem", "hetedik előtti elem"]  
 print(my_list[2:5]) 
 ```
+> Megjegyzés: A taromány az elején zárt, a végén pedig nyitott intervallumot jelöl!
+> Tehát az első elem indexe fog szerepelni a tartományban, de a tartományt záró index már nem. (Lásd: a példában a 2-es indexű elem benne van, de az 5-ös indexű elem nem.)
 
 ### Kezdőérték kihagyása
 

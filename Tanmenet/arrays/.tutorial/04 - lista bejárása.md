@@ -9,9 +9,16 @@ for student in students:
     print(student)
 ```
 
-#TODO: itt további példa range-el, illetve a gyakori hibák a szintaxnál
+Lehetséges a `range()` függvény segítségével is végig menni:
 
-Lehet persze indexeket is használni ha példul csak a lista egy részén akarunk végig menni:
+```python
+students = ["Peti", "Kata", "Legolasz", "Béla"]
+
+for i in range(len(students)):
+    print(students[i])
+```
+
+Konkrét ndexeket is használhatunk, ha csak a lista egy részén akarunk végig menni:
 
 ```python
 students = ["Peti", "Kata", "Legolasz", "Béla"]
