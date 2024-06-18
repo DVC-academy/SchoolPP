@@ -16,3 +16,6 @@ megkönnyítve nekünk a projektjeink kezelését és tárolását.
 Amikor lokálisan a saját számítógépünkön dolgoztunk egy kódon, elmenthetjük azt, lényegében egy felhőbe. Erre sokféle
 Git kompatibilis alkalmazást találhatunk, de az egyik legnépszerűbb a Github.
 
+### Github repository létrehozása
+
+![1new-repo](img/02-github/1.new-github-repo.png) <br>

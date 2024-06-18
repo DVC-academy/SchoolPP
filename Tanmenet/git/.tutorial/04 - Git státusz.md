@@ -37,5 +37,6 @@
 
 ## Összefoglalva
 
-Amikor szeretnénk a fájljaink aktuális állapotát lekérdezni a Git-től, használjuk a `git status` parancsot.
+* Amikor szeretnénk a fájljaink aktuális állapotát lekérdezni a Git-től, használjuk a `git status` parancsot.
+* A `git add` paranccsal még nem csináltunk mást, csak megmondtuk a Git-nek, hogy mostantól figyelje az adott fájlt. Innentől kezdve, ha bármi változás történik a fájlban a Git tudni fogja és nekünk is szól róla, mert nagyon kedves. Nem úgy mint a mai fiatalok...
 
