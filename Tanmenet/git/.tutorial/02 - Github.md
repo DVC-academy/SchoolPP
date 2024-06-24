@@ -17,5 +17,17 @@ Amikor lokálisan a saját számítógépünkön dolgoztunk egy kódon, elmenthe
 Git kompatibilis alkalmazást találhatunk, de az egyik legnépszerűbb a Github.
 
 ### Github repository létrehozása
+Az alábbi űrlap-ot kitöltve tudunk repository-t létrehozni. Adjuk meg a nevet, illetve állítsuk a projektet publikusra.
+> Privát projektnél szükséges egyéb beállítás a lokális Git-ünkben, amivel most egyelőre nem foglalkozunk.
 
 ![1new-repo](img/02-github/1.new-github-repo.png) <br>
+
+Miután rákattintunk a létrehozásra az alábbi oldal fogad minket:
+![2welcome-page](img/02-github/2.welcome-page.png) <br>
+
+Itt azt mutatja meg nekünk a Github, hogy hogyan tudjuk majd a lokális Git projektünkkel összekötni ezt a Github repository-t.
+
+## Összefoglalva
+
+Létrehoztunk Github-on egy üres projektet, a következő lépés, hogy a saját gépünkön is létrehozunk egy projektet,
+majd összekötjük ezzel a Github repository-val.
