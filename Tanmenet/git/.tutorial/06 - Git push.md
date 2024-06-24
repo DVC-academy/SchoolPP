@@ -25,7 +25,7 @@ Az alábbi példában a felhasználónév `vasvince98`, a projekt neve pedig `he
 
 Amennyiben a felhasználónév `teszt.elek69` a repository neve pedig `my-own-nasa`, akkor a parancs a következő:
 
-`git remote add origin git@github.com:teszt.elek68/my-own-nasa.git`
+`git remote add origin git@github.com:teszt.elek70/my-own-nasa.git`
 
 Nagyon figyeljünk, hogy helyes adatok legyenek megadva, különben nem fog működni.
 
