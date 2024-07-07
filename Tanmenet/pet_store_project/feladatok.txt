@@ -1,0 +1,43 @@
+1. Az 1. menüpont listázza ki az összes aktuálisan kapható állatot.
+2. A 2. menüpontban lehessen hozzáadni új állatot. Ha a kettes menüpontot választjuk egy interaktív menün kell végigmenni,
+        ami sorban bekéri az új állat adatait, végül hozzáadja az állatok listájához.
+
+
+
+Írjunk dokumentációt az applikációhoz.
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Valaki rosszul állította be egy kutya fajtáját, és ezért senki nem viszi el a kutyát... Ki kéne javítani, de sajnos
+    erre jelenleg nem képes az applikáció. Készíts egy új menüpontot, amiben
+- A kliens nem elégedett az állatok nevének kiírásával. Nem érdekli, hogy mi az állat id-ja, és azt szeretné,
+    ha az állatok neve nagy betűvel lenne kiírva, és alatta lennének felsorolva a tulajdonságai. Küldött is egy példát:
+    HERCEGNŐ:
+        - Name: Buksi
+        - Species: Dog
+        - Age: 3
+        - Sex: m
+
+- Elkezdett túl sok állat lenni a kereskedésben. Így már nagyon nehéz megkeresni az adott állatot,
+    ezért egy új menüpontot kell bevezetni. Az új menüpont kérje be a felhasználótól,
+    hogy mire akar rákeresni (név, nem, kor, stb...), majd ezután a keresési értéket is kérje be. Ha nem talált semmit
+    írja ki hogy nincs találat, ha talált, listázza ki a találatokat.
+
+- Egy új szabályozás szerint már nem elég az állatok faját, de a fajtáját is meg kell határozni.
+    Ehhez az állatkereskedésnek is alkalmazkodnia kell. Vezess be egy új mezőt minden állathoz,
+    ami meghatározza a fajtáját. Pl.: ["Buksi", "dog", 3, "m"] mostantól legyen ["Buksi", "dog", "rottweiler", 3, "m"]
+
+- Egy ellenőrzés során megkérdezték, hogy hány állatot adtak el az előző hónapban. Mivel erre nem tudtak választ adni
+    nagyon megbüntették a céget. Brutális volt, több embert kirúgtak, válságba került a cég. De szerencsére nem kellett
+    bezárni, ezért kaptunk még egy feladatot. Szükség van egy naplózó rendszerre. A részfeladatok:
+        1. Hozz létre egy új mappát logs néven, amibe a logok fognak kerülni. Ha eladnak egy állatot, kerüljön be a log
+            fájlba, hogy melyik állatot adták el, mikor és mennyiért.
+
+
+
+- Elkezdett túl sok menüpont kialakulni. Célszerű lenne almenü pontokat létrehozni. Ki kell nevezni erre a projektre
+    egy projekt menedzsert, aki kitalálja hogyan lenne célszerű elkészíteni a menü rendszert, majd kiosztja a feladatokat.
