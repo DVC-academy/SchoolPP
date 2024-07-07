@@ -1,10 +1,17 @@
 1. Az 1. menüpont listázza ki az összes aktuálisan kapható állatot.
 2. A 2. menüpontban lehessen hozzáadni új állatot. Ha a kettes menüpontot választjuk egy interaktív menün kell végigmenni,
         ami sorban bekéri az új állat adatait, végül hozzáadja az állatok listájához.
+3. A 3-as menüpontban el tudunk adni egy állatot.
+    3.1: Kérjen be egy id-t, és az id alapján keresse meg az adott állatot a tömbből.
+        Írja ki az állat adatait és kérdezze meg biztosan el akarjuk e adni.
+    3.2: Két lehetőség adott: IGEN/NEM. Készíts validációt. Ha igen-t ír, írj ki egy üzenetet, hogy {állat neve} eladva.
+        Ha nem-et ír, menj vissza a menübe. Ha bármi mást ír be a felhasználó, írd ki,
+        hogy rossza opciót írt be, válasszon másikat
+    3.3: Amennyiben igen-re kattint, végezd el az állat eltávolítását a listából.
+4. A 4-es pontra kattintva lépjen ki az alkalmazás. Mielőtt kilépne kérdezzen rá hogy biztos ki akar e lépni.
+    2 lehetséges válasz: Y/N (ha bármi mást ad meg, írja ki, hogy nem valid opció, és kérje be újra)
 
-
-
-Írjunk dokumentációt az applikációhoz.
+5. Írjunk dokumentációt az applikációhoz. Innentől kezdve folyamatosan frissíteni kell.
 
 
 
@@ -12,6 +19,9 @@
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+- Rögtön miután átadtuk az alkalmazást, rájöttek, hogy minden egyes alkalommal amikor az alkalmazás újraindul, elveszíti
+    az aktuális állapotát. Ahelyett, hogy egy tömbben tároljuk az állatokat, minden leállításkor mentsük el az aktuális
+    állatok listáját egy fájlba, és minden indításkor ezt a fájlt olvassuk be.
 - Valaki rosszul állította be egy kutya fajtáját, és ezért senki nem viszi el a kutyát... Ki kéne javítani, de sajnos
     erre jelenleg nem képes az applikáció. Készíts egy új menüpontot, amiben
 - A kliens nem elégedett az állatok nevének kiírásával. Nem érdekli, hogy mi az állat id-ja, és azt szeretné,
@@ -41,3 +51,15 @@
 
 - Elkezdett túl sok menüpont kialakulni. Célszerű lenne almenü pontokat létrehozni. Ki kell nevezni erre a projektre
     egy projekt menedzsert, aki kitalálja hogyan lenne célszerű elkészíteni a menü rendszert, majd kiosztja a feladatokat.
+
+- Szeretnénk elkezdeni követni azt is, hogy kik vették meg az állatokat. Hozzunk létre egy új tömböt clients néven.
+    Alkossuk meg hozzá az adatstruktúrát.
+
+- Felvettek még valakit a kereskedésbe, és elkezdték mérni, hogy ki mennyi állatot tud eladni.
+    Ennek érdekében el kell kezdeni vezetni, hogy aktuálisan ki használja az alkalmazást.
+    1. Készíts bejelentkező felületet: Kérje be a felhasználó nevet és a jelszavat.
+    2. Készíts ellenőrzést, hogy a felhasználónév valóban létezik e. Ha nem, akkor kérd tőle mégegyszer.
+    3. Készíts ellenőrzést, hogy a megadott felhasználónévhez beírt jelszó megfelelő e. Ha nem, kérd tőle mégegyszer.
+    4. Ha megfelelő, akkor megjelenhet neki a menü. A menü felett mindig legyen kiírva pirossal és
+        nagybetűvel az aktuális felhasználó neve.
+    5. Mostantól ha eladásra kerül egy állat, a logokba kerüljön be az is, hogy ki adta el.
