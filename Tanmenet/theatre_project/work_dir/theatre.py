@@ -4,8 +4,9 @@ import datetime
 
 # theatre_name = sys.argv[1]
 # print(f"Welcome to the {theatre_name}!")
-print("  0 1 2 3 4 5 6 7 8 9")
+print("  0 1 2 3 4 5 6 7 8 9 |")
 occupied=[]
+base_price = 5000
 for letter in ["A", "B", "C"]:
     print(f"\033[0m{letter}", end=" ")
     for num in range(0, 10):
@@ -14,7 +15,8 @@ for letter in ["A", "B", "C"]:
         else:
             print(f"\033[0mO", end=" ")
 
-    print()
+    print(f"| {base_price} Ft")
+    base_price-=500
 
 
 
